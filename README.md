@@ -1,6 +1,6 @@
 # AMM generator
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8266537.svg)](https://doi.org/10.5281/zenodo.8266537)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8266568.svg)](https://doi.org/10.5281/zenodo.8266568)
 
 This is the artifact accompanying the paper "Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors", accepted by ESEC/FSE 2023.
 
