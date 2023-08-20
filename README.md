@@ -94,3 +94,10 @@ patcher.perform_patching('dataset/be837406e861488e43d0a374982066517c3c08cf549b2f
 ## Step 3: Malware Detector Testing
 
 With the generated adversarial samples, we can furhter test the robustness of malware detectors. Please find detailed exmperimental results in our paper.
+
+## Ethical considerations
+
+Our research is concentrated on testing, which determines potential weaknesses of current malware detection methodologies. Hence, we declare: 
+1. The motivating example we presented is only a code snippet without actual functionality;
+2. All tools and datasets involved in our experiment are publicly available; and
+3. Considering the potential security issues, we will not release the test case generator and any test cases, as well as the information of commercial antivirus involved in our evaluation, except for academic uses that are approved by our ethical committee.
