@@ -1,0 +1,15 @@
+We are applying for Available, Functional, and Resuable Badges.
+REUSABLE BADGE
+
+Our github repository: https://github.com/Immor278/AMM
+DOI: https://doi.org/10.5281/zenodo.8266537
+
+We are applying for the Available, Functional, and Resuable Badges. The artifacts project is fully implemented and has been used in our paper, "Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors", with features including explanability-guided feature selection, adversarial sample generation, and malware detector robustness evaluation.
+
+To the best of our knowledge, this project is the first research to systematically test the robustness of malware detectors in a way that combines feature-space manipulations with semantic explainability. In this research, we propose an explainability-guided and model-agnostic testing framework for malware detectors. Our framework generates test cases while preserving the malicious functions of the malware. We introduce the concept of Accrued Malicious Magnitude (AMM) to guide the feature selection approach for feature-space manipulation. We further project the manipulated features back into the problem space with a binary builder.
+
+We use the implemented framework to test the robustness of state-of-the-art malware detectors. We show that commercial antivirus engines are vulnerable to AMM-based test cases. Experimental results indicate that feature-space manipulated test cases have significant evasion capability, which decreases the detection rates of 8 state-of-the-art Android malware detectors by 91.75% on average, and bypasses an average of 37.35 (62.25%) antivirus engines in VirusTotal. We also highlight the generalizability of our AMM approach by applying it to WinPE malware detectors.
+
+The source codes are fully documented. All classes and functions are written with clean code guidance. We also left detailed comments on most of functions to help developers understand the logic.
+
+Therefore, we believe our project deserves Available, Functional, and Resuable Badges.

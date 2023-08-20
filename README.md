@@ -1,5 +1,7 @@
 # AMM generator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8266537.svg)](https://doi.org/10.5281/zenodo.8266537)
+
 This is the artifact accompanying the paper "Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors", accepted by ESEC/FSE 2023.
 
 If you would like to use this project in your research, please cite our paper:
@@ -13,9 +15,9 @@ If you would like to use this project in your research, please cite our paper:
 }
 ```
 
-The original results are produced on a PC workstation with 64GB RAM, AMD Ryzen 3750X 8-core CPU and Linux Mint 20.1 Cinnamon installed with 256GB swap partition. We run Python 3.9.9. To reproduce the results, a machine with similar CPUs(at least 2 cores and 2.10GHz), 4 GB or larger RAM is required. Running the artifact on a different machine could possibly diverge the execution and lead to different results.  
+The original results are produced on a PC workstation with 64GB RAM, AMD Ryzen 3750X 8-core CPU and Linux Mint 20.1 Cinnamon installed with 256GB swap partition. We run Python 3.9.9. To reproduce the results, a machine with similar CPUs (at least 2 cores and 2.10GHz), 4 GB or larger RAM is required. Running the artifact on a different machine could possibly diverge the execution and lead to different results.  
 
-**The proccess of AMM-based generation can be found in main.ipynb**
+**An example of AMM-based generation can be found in main.ipynb**
 
 Our testing framework consists of three key components: 
 1. Explainability-guided feature selection, to select the features for manipulation; 
@@ -24,9 +26,9 @@ Our testing framework consists of three key components:
 
 ## Step 0: SHAP
 
-Before diving into the testing framework, we would like to introduce preliminary knowledge about SHAP~\cite{lundberg2017unified}, the model explanation technique we used in our testing.
+Before diving into the testing framework, we would like to introduce preliminary knowledge about SHAP, the model explanation technique we used in our testing.
 
-The SHAP framework subsumes several earlier model explanation techniques together, including LIME~\cite{ribeiro2016should} and Integrated Gradients~\cite{sundararajan2017axiomatic}.
+The SHAP framework subsumes several earlier model explanation techniques together, including LIME and Integrated Gradients.
 SHAP has the objective of explaining the final value of a prediction by attributing a value to each feature based on its contribution to the final result. To accomplish this task, the SHAP  frameworks train a surrogate linear explanation model. Summing the effects of all feature attributions approximates the difference of prediction and the average of the original model, aiming to explain any machine learning-based model without internal knowledge.
 
 * Step 0.1: Train a machine learning-based malware detector with a specific feature extraction (or say vectorising) method.
