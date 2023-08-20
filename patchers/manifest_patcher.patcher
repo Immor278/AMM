@@ -1,0 +1,7 @@
+[Core]
+Name = ManifestPatcher
+Module = manifest_patcher
+
+[Documentation]
+Description = Manifest patcher
+Version = 1.0

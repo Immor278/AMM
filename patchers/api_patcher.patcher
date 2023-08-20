@@ -1,0 +1,7 @@
+[Core]
+Name = ApiPatcher
+Module = api_patcher
+
+[Documentation]
+Description = API patcher
+Version = 1.0

@@ -1,0 +1,7 @@
+[Core]
+Name = StringPatcher
+Module = string_patcher
+
+[Documentation]
+Description = String patcher
+Version = 1.0
