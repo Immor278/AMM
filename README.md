@@ -103,3 +103,7 @@ Our research is concentrated on testing, which determines potential weaknesses o
 1. The motivating example we presented is only a code snippet without actual functionality;
 2. All tools and datasets involved in our experiment are publicly available; and
 3. Considering the potential security issues, we will not release the test case generator and any test cases, as well as the information of commercial antivirus involved in our evaluation, except for academic uses that are approved by our ethical committee.
+
+## Acknowledgement
+
+Copyright © Cyber Security Research Centre Limited 2023. This work has been supported by the Cyber Security Research Centre (CSCRC) Limited whose activities are partially funded by the Australian Government’s Cooperative Research Centres Programme. We are currently tracking the impact CSCRC funded research. If you have used this code/data in your project, please contact us at contact@cybersecuritycrc.org.au to let us know.
